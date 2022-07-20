@@ -89,14 +89,15 @@ export default {
       this.message = "";
       this.successful = false;
       this.loading = true;
-      console.log(this.$store)
+      console.log(this.$store);
       this.$store.dispatch("auth/register", user).then(
         (data) => {
-          console.log('1.1', data)
+          console.log("1.1", data);
           this.message = data.status;
           this.successful = true;
           this.loading = false;
           this.$store.state.auth.status.registerSuccessed = true;
+          this.$router.push("/profile");
         },
         (error) => {
           console.log(error.response.data.errors.full_messages[0]);
