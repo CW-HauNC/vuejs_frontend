@@ -11,6 +11,8 @@
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "@hennge/vue3-pagination": "^1.0.17",
+    "@ocrv/vue-tailwind-pagination": "0.0.4",
     "axios": "^0.27.2",
     "bootstrap": "^4.6.1",
     "core-js": "^3.8.3",
@@ -19,6 +21,8 @@
     "vee-validate": "^4.6.1",
     "vue": "^3.2.13",
     "vue-router": "^4.1.2",
+    "vue3-pagination": "^1.0.16",
+    "vuejs-paginate": "^2.1.0",
     "vuex": "^4.0.2",
     "yup": "^0.32.11"
   },
